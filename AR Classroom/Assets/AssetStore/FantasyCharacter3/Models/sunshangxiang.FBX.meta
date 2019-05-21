@@ -1,0 +1,505 @@
+fileFormatVersion: 2
+guid: f42190b5ee86b5d48a4f316221b4f377
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: body
+    100002: Bone021
+    100004: Bone022
+    100006: Bone023
+    100008: Bone024
+    100010: Bone025
+    100012: Bone026
+    100014: Bone027
+    100016: Bone028
+    100018: Bone029
+    100020: Bone030
+    100022: Bone031
+    100024: Bone032
+    100026: Bone033
+    100028: Bone034
+    100030: Bone035
+    100032: Bone036
+    100034: DfemaleHead
+    100036: DfemaleLCalf
+    100038: DfemaleLCollarbone
+    100040: DfemaleLfinger1
+    100042: DfemaleLfinger2
+    100044: DfemaleLFoot
+    100046: DfemaleLForearm
+    100048: DfemaleLPalm
+    100050: DfemaleLThigh
+    100052: DfemaleLThumb1
+    100054: DfemaleLThumb2
+    100056: DfemaleLUpperarm
+    100058: DfemaleNeck
+    100060: DfemalePelvis
+    100062: DfemaleRCalf
+    100064: DfemaleRCollarbone
+    100066: DfemaleRfinger1
+    100068: DfemaleRfinger2
+    100070: DfemaleRFoot
+    100072: DfemaleRForearm
+    100074: DfemaleRibcage
+    100076: DfemaleRPalm
+    100078: DfemaleRThigh
+    100080: DfemaleRThumb1
+    100082: DfemaleRThumb2
+    100084: DfemaleRUpperarm
+    100086: DfemaleSpine1
+    100088: DfemaleSpine2
+    100090: lunzileft
+    100092: lunziright
+    100094: Lweapon
+    100096: Rweapon
+    100098: //RootNode
+    400000: body
+    400002: Bone021
+    400004: Bone022
+    400006: Bone023
+    400008: Bone024
+    400010: Bone025
+    400012: Bone026
+    400014: Bone027
+    400016: Bone028
+    400018: Bone029
+    400020: Bone030
+    400022: Bone031
+    400024: Bone032
+    400026: Bone033
+    400028: Bone034
+    400030: Bone035
+    400032: Bone036
+    400034: DfemaleHead
+    400036: DfemaleLCalf
+    400038: DfemaleLCollarbone
+    400040: DfemaleLfinger1
+    400042: DfemaleLfinger2
+    400044: DfemaleLFoot
+    400046: DfemaleLForearm
+    400048: DfemaleLPalm
+    400050: DfemaleLThigh
+    400052: DfemaleLThumb1
+    400054: DfemaleLThumb2
+    400056: DfemaleLUpperarm
+    400058: DfemaleNeck
+    400060: DfemalePelvis
+    400062: DfemaleRCalf
+    400064: DfemaleRCollarbone
+    400066: DfemaleRfinger1
+    400068: DfemaleRfinger2
+    400070: DfemaleRFoot
+    400072: DfemaleRForearm
+    400074: DfemaleRibcage
+    400076: DfemaleRPalm
+    400078: DfemaleRThigh
+    400080: DfemaleRThumb1
+    400082: DfemaleRThumb2
+    400084: DfemaleRUpperarm
+    400086: DfemaleSpine1
+    400088: DfemaleSpine2
+    400090: lunzileft
+    400092: lunziright
+    400094: Lweapon
+    400096: Rweapon
+    400098: //RootNode
+    4300000: body
+    4300002: lunzileft
+    4300004: lunziright
+    7400000: sunshangxiang_stand
+    7400002: sunshangxiang_run
+    7400004: sunshangxiang_attack
+    7400006: sunshangxiang_magic
+    7400008: sunshangxiang_ultimate
+    7400010: sunshangxiang_death
+    7400012: sunshangxiang_attacked
+    7400014: sunshangxiang_victory
+    9500000: //RootNode
+    13700000: body
+    13700002: lunzileft
+    13700004: lunziright
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sunshangxiang
+    second: {fileID: 2100000, guid: 718c0f13a9a3bec499bb9f698f57bf75, type: 2}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: sunshangxiang_stand
+      takeName: 
+      firstFrame: 1
+      lastFrame: 45
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: sunshangxiang_run
+      takeName: 
+      firstFrame: 50
+      lastFrame: 68
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: sunshangxiang_attack
+      takeName: 
+      firstFrame: 90
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: sunshangxiang_magic
+      takeName: 
+      firstFrame: 130
+      lastFrame: 170
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0
+        functionName: ActionStart
+        data: Magic
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.41592747
+        functionName: preAction
+        data: Magic|0
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.99548244
+        functionName: ActionDone
+        data: Magic
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: sunshangxiang_ultimate
+      takeName: 
+      firstFrame: 180
+      lastFrame: 230
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0
+        functionName: ActionStart
+        data: Ultimate
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.47645336
+        functionName: preAction
+        data: Ultimate|0
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.99836093
+        functionName: ActionDone
+        data: Ultimate
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: sunshangxiang_death
+      takeName: 
+      firstFrame: 240
+      lastFrame: 270
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.9933777
+        functionName: ActionDone
+        data: Death
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0
+        functionName: ActionStart
+        data: Death
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: sunshangxiang_attacked
+      takeName: 
+      firstFrame: 280
+      lastFrame: 300
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.9954982
+        functionName: ActionDone
+        data: Attacked
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: sunshangxiang_victory
+      takeName: 
+      firstFrame: 310
+      lastFrame: 350
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.9941478
+        functionName: ActionDone
+        data: Victory
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

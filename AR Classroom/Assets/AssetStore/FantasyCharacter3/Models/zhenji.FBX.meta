@@ -1,0 +1,536 @@
+fileFormatVersion: 2
+guid: cb4d6748a19b1dc45b63aaeadc5c61f8
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: body
+    100002: Bone001
+    100004: Bone002
+    100006: Bone003
+    100008: Bone004
+    100010: Bone005
+    100012: Bone006
+    100014: Bone007
+    100016: Bone008
+    100018: Bone009
+    100020: Bone010
+    100022: Bone011
+    100024: Bone012
+    100026: Bone013
+    100028: Bone014
+    100030: Bone015
+    100032: Bone016
+    100034: Bone017
+    100036: Bone018
+    100038: Bone019
+    100040: Bone020
+    100042: Bone021
+    100044: Bone022
+    100046: Bone023
+    100048: Bone024
+    100050: Bone025
+    100052: Bone026
+    100054: Bone027
+    100056: Bone029
+    100058: Bone030
+    100060: DmanHead
+    100062: DmanL
+    100064: DmanLCalf
+    100066: DmanLCollarbone
+    100068: DmanLfinger1
+    100070: DmanLfinger2
+    100072: DmanLFoot
+    100074: DmanLForearm
+    100076: DmanLIKTarget
+    100078: DmanLPalm
+    100080: DmanLThigh
+    100082: DmanLThumb1
+    100084: DmanLThumb2
+    100086: DmanLUpperarm
+    100088: DmanNeck
+    100090: DmanPelvis
+    100092: DmanR
+    100094: DmanRCalf
+    100096: DmanRCollarbone
+    100098: DmanRfinger1
+    100100: DmanRfinger2
+    100102: DmanRFoot
+    100104: DmanRForearm
+    100106: DmanRibcage
+    100108: DmanRIKTarget
+    100110: DmanRPalm
+    100112: DmanRThigh
+    100114: DmanRThumb1
+    100116: DmanRThumb2
+    100118: DmanRUpperarm
+    100120: DmanSpine1
+    100122: DmanSpine2
+    100124: weapon
+    100126: //RootNode
+    400000: body
+    400002: Bone001
+    400004: Bone002
+    400006: Bone003
+    400008: Bone004
+    400010: Bone005
+    400012: Bone006
+    400014: Bone007
+    400016: Bone008
+    400018: Bone009
+    400020: Bone010
+    400022: Bone011
+    400024: Bone012
+    400026: Bone013
+    400028: Bone014
+    400030: Bone015
+    400032: Bone016
+    400034: Bone017
+    400036: Bone018
+    400038: Bone019
+    400040: Bone020
+    400042: Bone021
+    400044: Bone022
+    400046: Bone023
+    400048: Bone024
+    400050: Bone025
+    400052: Bone026
+    400054: Bone027
+    400056: Bone029
+    400058: Bone030
+    400060: DmanHead
+    400062: DmanL
+    400064: DmanLCalf
+    400066: DmanLCollarbone
+    400068: DmanLfinger1
+    400070: DmanLfinger2
+    400072: DmanLFoot
+    400074: DmanLForearm
+    400076: DmanLIKTarget
+    400078: DmanLPalm
+    400080: DmanLThigh
+    400082: DmanLThumb1
+    400084: DmanLThumb2
+    400086: DmanLUpperarm
+    400088: DmanNeck
+    400090: DmanPelvis
+    400092: DmanR
+    400094: DmanRCalf
+    400096: DmanRCollarbone
+    400098: DmanRfinger1
+    400100: DmanRfinger2
+    400102: DmanRFoot
+    400104: DmanRForearm
+    400106: DmanRibcage
+    400108: DmanRIKTarget
+    400110: DmanRPalm
+    400112: DmanRThigh
+    400114: DmanRThumb1
+    400116: DmanRThumb2
+    400118: DmanRUpperarm
+    400120: DmanSpine1
+    400122: DmanSpine2
+    400124: weapon
+    400126: //RootNode
+    4300000: body
+    7400000: zhenji_stand
+    7400002: zhenji_run
+    7400004: zhenji_attack
+    7400006: zhenji_magic
+    7400008: zhenji_ultimate
+    7400010: zhenji_death
+    7400012: zhenji_attacked
+    7400014: zhenji_victory
+    9500000: //RootNode
+    13700000: body
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #28'
+    second: {fileID: 2100000, guid: 4bf37169fc9ee034dae57db33bcb39c6, type: 2}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: zhenji_stand
+      takeName: 
+      firstFrame: 1
+      lastFrame: 45
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: zhenji_run
+      takeName: 
+      firstFrame: 50
+      lastFrame: 76
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: zhenji_attack
+      takeName: 
+      firstFrame: 90
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: zhenji_magic
+      takeName: 
+      firstFrame: 130
+      lastFrame: 170
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.6346155
+        functionName: preAction
+        data: Magic|0
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.9988688
+        functionName: ActionDone
+        data: Magic
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0
+        functionName: ActionStart
+        data: Magic
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: zhenji_ultimate
+      takeName: 
+      firstFrame: 180
+      lastFrame: 255
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.60803163
+        functionName: preAction
+        data: Ultimate|0
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.99830323
+        functionName: ActionDone
+        data: Ultimate
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.7046005
+        functionName: preAction
+        data: Ultimate|1
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0
+        functionName: ActionStart
+        data: Ultimate
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: zhenji_death
+      takeName: 
+      firstFrame: 260
+      lastFrame: 290
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.99886894
+        functionName: ActionDone
+        data: Death
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0
+        functionName: ActionStart
+        data: Death
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: zhenji_attacked
+      takeName: 
+      firstFrame: 300
+      lastFrame: 320
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.99886847
+        functionName: ActionDone
+        data: Attacked
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: zhenji_victory
+      takeName: 
+      firstFrame: 330
+      lastFrame: 366
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.993213
+        functionName: ActionDone
+        data: Victory
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
