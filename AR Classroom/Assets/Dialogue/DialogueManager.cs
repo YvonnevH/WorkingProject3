@@ -28,7 +28,8 @@ public class DialogueManager : MonoBehaviour
 	void Update()
 	{
 		if(magicGiven == false && talkingToCorrectNPC == true && sentences.Count == 0 && lastSentenceDisplayed==false){
-					//Trigger correct GiveMagic
+            //Trigger correct GiveMagic
+            Debug.Log("Trigger GiveMagic");
 					Player[NPCnumber].GetComponent<GiveMagic>().GiveMagicTrigger();
 				}
 		if (Input.GetMouseButtonDown(0)){
@@ -37,7 +38,7 @@ public class DialogueManager : MonoBehaviour
 				return;
 			}
 			DisplayNextSentence();
-		}
+        }
 		dialogueBox.SetActive(dialogOn);
 	}
 	
