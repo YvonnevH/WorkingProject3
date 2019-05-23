@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class DialogueManager : MonoBehaviour
 {
@@ -61,23 +63,64 @@ public class DialogueManager : MonoBehaviour
 	}
 	
 	void LastSentence(){
-		if (GetComponent<TalkingOrderController>().talkTo == 0){
-			lastSentence = "Praat maar eens met de Tovenaar";
-		}
-		else if (GetComponent<TalkingOrderController>().talkTo == 1){
-			lastSentence = "Praat maar eens met de Bakker";
-		}
-		else if (GetComponent<TalkingOrderController>().talkTo == 2){
-			lastSentence = "Praat maar eens met de Visser";
-		}
-		else if (GetComponent<TalkingOrderController>().talkTo == 3){
-			lastSentence = "Praat maar eens met de Kluizenaar";
-		}
-		else if (GetComponent<TalkingOrderController>().talkTo == 4){
-			lastSentence = "Praat maar eens met de Jager";
-		}
-		dialogueText.text = lastSentence;
-		lastSentenceDisplayed = true;
+        if (GetComponent<TalkingOrderController>().talkingCounter == 5)
+        {
+            Debug.Log("NextScene");
+            SceneManager.LoadScene("MidSceneNew", LoadSceneMode.Single); //moet load next scene worden
+            return;
+        }
+        if (magicGiven == true && talkingToCorrectNPC == true)
+        {
+            if (GetComponent<TalkingOrderController>().talkTo == 0)
+            {
+                lastSentence = "Praat maar eens met de Tovenaar";
+            }
+            else if (GetComponent<TalkingOrderController>().talkTo == 1)
+            {
+                lastSentence = "Praat maar eens met de Bakker";
+            }
+            else if (GetComponent<TalkingOrderController>().talkTo == 2)
+            {
+                lastSentence = "Praat maar eens met de Visser";
+            }
+            else if (GetComponent<TalkingOrderController>().talkTo == 3)
+            {
+                lastSentence = "Praat maar eens met de Kluizenaar";
+            }
+            else if (GetComponent<TalkingOrderController>().talkTo == 4)
+            {
+                lastSentence = "Praat maar eens met de Jager";
+            }
+            dialogueText.text = lastSentence;
+            lastSentenceDisplayed = true;
+            magicGiven = false;
+            return;
+        }
+        else if (talkingToCorrectNPC == false)
+        {
+            if (GetComponent<TalkingOrderController>().talkTo == 0)
+            {
+                lastSentence = "Praat maar eens met de Tovenaar";
+            }
+            else if (GetComponent<TalkingOrderController>().talkTo == 1)
+            {
+                lastSentence = "Praat maar eens met de Bakker";
+            }
+            else if (GetComponent<TalkingOrderController>().talkTo == 2)
+            {
+                lastSentence = "Praat maar eens met de Visser";
+            }
+            else if (GetComponent<TalkingOrderController>().talkTo == 3)
+            {
+                lastSentence = "Praat maar eens met de Kluizenaar";
+            }
+            else if (GetComponent<TalkingOrderController>().talkTo == 4)
+            {
+                lastSentence = "Praat maar eens met de Jager";
+            }
+            dialogueText.text = lastSentence;
+            lastSentenceDisplayed = true;
+        }
 	}
 	
 	void EndDialogue(){

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class TalkingOrderController : MonoBehaviour
 {
 // Tovenaar = 0, Bakker = 1, Visser = 2, Kluizenaar = 3
@@ -20,9 +21,6 @@ public int talkTo;
     void Update()
     {
 		talkTo = order[talkingCounter];
-		if(talkingCounter == 5){
-			Application.Quit(); //moet load next scene worden
-		}
 	}
 	
  public void CounterUp(){
