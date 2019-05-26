@@ -19,12 +19,14 @@ public class DialogueManager : MonoBehaviour
 	public GameObject[] Player;
 	
     private Queue<string> sentences;
+    private Queue<AudioClip> voiceovers;
     void Start()
     {
 		dialogOn = false;
 		lastSentenceDisplayed = false;
 		magicGiven = false;
         sentences = new Queue<string>();
+        voiceovers = new Queue<AudioClip>();
     }
 	
 	void Update()
@@ -47,11 +49,16 @@ public class DialogueManager : MonoBehaviour
 	public void StartDialogue(Dialogue dialogue){
 		nameText.text = dialogue.name;
 		sentences.Clear();
+        voiceovers.Clear();
 		dialogOn = true;
 		foreach (string sentence in dialogue.sentences){
 			sentences.Enqueue(sentence);
 		}
-		DisplayNextSentence();
+        foreach (AudioClip voiceover in dialogue.voiceovers) //TOEGEVOEGD
+        {
+            voiceovers.Enqueue(voiceover);
+        }
+        DisplayNextSentence();
 	}
 	public void DisplayNextSentence (){
 		if(sentences.Count == 0 && lastSentenceDisplayed==false){
@@ -60,7 +67,10 @@ public class DialogueManager : MonoBehaviour
 		}
 		string sentence = sentences.Dequeue();
 		dialogueText.text = sentence;
-	}
+        AudioClip voiceover = voiceovers.Dequeue(); // TOEGEVOEGD
+        AudioSource.PlayClipAtPoint(voiceover, new Vector3(5, 1, 2));
+
+    }
 	
 	void LastSentence(){
         if (GetComponent<TalkingOrderController>().talkingCounter == 5)
