@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/DragonGame.unity
+- path: Assets/Scenes/FirstGame.unity
   isLoaded: 1
   isActive: 1
