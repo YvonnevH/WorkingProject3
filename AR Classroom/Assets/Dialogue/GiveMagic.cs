@@ -17,12 +17,13 @@ public class GiveMagic : MonoBehaviour
     }
 	
 	public void GiveMagicTrigger(){
-        Debug.Log("List contains this object" + ARController.GetComponent<ARController>().currentTrackedObjects.Contains(gameObject.name.ToString()));
-        Debug.Log("List contains right NPC" + ARController.GetComponent<ARController>().currentTrackedObjects.Contains(RightNPC.name.ToString()));
-        if (ARController.GetComponent<ARController>().currentTrackedObjects.Contains(gameObject.name.ToString())
+        Debug.Log("List contains this object" + ARController.GetComponent<ARController>().currentTrackedObjects.Contains(this.gameObject.name.ToString()));
+        Debug.Log("NPC name: " + RightNPC.name.ToString());
+        //ARController.GetComponent<ARController>().currentTrackedObjects.Contains(RightNPC.name.ToString())
+        if (ARController.GetComponent<ARController>().currentTrackedObjects.Contains(this.gameObject.name.ToString())
 		&& ARController.GetComponent<ARController>().currentTrackedObjects.Contains(RightNPC.name.ToString()))
 			{
-            gameObject.transform.GetChild(1).gameObject.SetActive(true);
+            gameObject.transform.GetChild(2).gameObject.SetActive(true);
             magicGiven = true;
 			DialogueManager.GetComponent<DialogueManager>().magicGiven = magicGiven;
             Debug.Log("GiveMagic triggered");

@@ -8,19 +8,22 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/Scenes/DragonGame.unity
-    guid: c9af259d0e18a52499fb15cd629d65a8
-  - enabled: 1
-    path: Assets/Scenes/EndSceneNew.unity
-    guid: 8061d447d855c6a4095a550d8da3021b
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/MidSceneNew.unity
     guid: 89ead4467209d824f894310ac73c3914
   - enabled: 1
+    path: Assets/Scenes/DragonGame.unity
+    guid: 99efa1649bd18314fb244ff777615c93
+  - enabled: 1
+    path: Assets/Scenes/EndSceneNew.unity
+    guid: 8061d447d855c6a4095a550d8da3021b
+  - enabled: 0
     path: Assets/Scenes/StartScene.unity
     guid: f0f2eaa243aed8b4089c68c67982ffe3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/FirstGame.unity
     guid: ec95b962a4a58fd4a8ec592dd80b3aff
   m_configObjects: {}

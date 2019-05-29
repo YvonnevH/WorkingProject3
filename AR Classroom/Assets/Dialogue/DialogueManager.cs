@@ -34,14 +34,17 @@ public class DialogueManager : MonoBehaviour
 		if(magicGiven == false && talkingToCorrectNPC == true && sentences.Count == 0 && lastSentenceDisplayed==false){
             //Trigger correct GiveMagic
             Debug.Log("Trigger GiveMagic");
-					Player[NPCnumber].GetComponent<GiveMagic>().GiveMagicTrigger();
-				}
+			Player[NPCnumber].GetComponent<GiveMagic>().GiveMagicTrigger();
+		}
 		if (Input.GetMouseButtonDown(0)){
 			if (sentences.Count == 0 && lastSentenceDisplayed==true){
 				EndDialogue();
 				return;
 			}
-			DisplayNextSentence();
+            if (dialogOn == true)
+            {
+                DisplayNextSentence();
+            }
         }
 		dialogueBox.SetActive(dialogOn);
 	}
