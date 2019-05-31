@@ -20,11 +20,15 @@ public int talkTo;
     // Update is called once per frame
     void Update()
     {
-		talkTo = order[talkingCounter];
+        if (talkingCounter < 4)
+        {
+            talkTo = order[talkingCounter];
+        }
 	}
 	
  public void CounterUp(){
 	 talkingCounter++;
+     Debug.Log(talkingCounter);
  }
 
  public static void ShuffleArray<T>(T[] arr) {

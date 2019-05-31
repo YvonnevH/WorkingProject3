@@ -1,7 +1,9 @@
 Android
 PlayerPath?
-C:/Users/20160721/OneDrive - TU Eindhoven/Desktop/WorkingProject3/AR Classroom/DragonGame2.apk
+C:/Users/20160721/OneDrive - TU Eindhoven/Desktop/WorkingProject3/AR Classroom/FinalFantasyWorld.apk
 SceneListBegin?
+Assets/Scenes/StartScene.unity
+Assets/Scenes/FirstGame.unity
 Assets/Scenes/MidSceneNew.unity
 Assets/Scenes/DragonGame.unity
 Assets/Scenes/EndSceneNew.unity
@@ -219,12 +221,12 @@ cd67f3e1e9ccac6db86c1564cea5a827 Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 69167579cf7fcbb2676fc1e675963dcd Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehaviour
 fbbf64dcbe0662e3eda1dec45ea8f895 Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 71bb6a6b6c8f052f948db64c7dd3ca4f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
-458ed292fbbf21f3fffb26b89e65997e Assembly-CSharp.dll:.DialogueManager
+4358b7b8e14efca895900d27fa54de3a Assembly-CSharp.dll:.DialogueManager
 471baa016709032b37c8f0466284e71a Assembly-CSharp.dll:.Done_DestroyByContact
 997b3a8fa23390309593e35f248ab3ea Assembly-CSharp.dll:.zhangliaodemo
 b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.UIEventController
-c271ae1aef0ead653a87d67eaf622e52 Assembly-CSharp.dll:.dialog
+08cb2671dbb04e39e7c31de12722267a Assembly-CSharp.dll:.dialog
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.sunshangxiangdemo
 a83a2f65b49880a63db9a013667240c0 Assembly-CSharp.dll:.TalkButtonOnClick
 997b3a8fa23390309593e35f248ab3ea Assembly-CSharp.dll:.chengpuDemo

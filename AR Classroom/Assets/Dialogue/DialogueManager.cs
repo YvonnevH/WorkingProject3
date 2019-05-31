@@ -20,6 +20,10 @@ public class DialogueManager : MonoBehaviour
 	
     private Queue<string> sentences;
     private Queue<AudioClip> voiceovers;
+    private AudioSource currentAudio;
+
+    public bool waitUntilMagicGiven = false;
+
     void Start()
     {
 		dialogOn = false;
@@ -27,6 +31,7 @@ public class DialogueManager : MonoBehaviour
 		magicGiven = false;
         sentences = new Queue<string>();
         voiceovers = new Queue<AudioClip>();
+        currentAudio = GetComponent<AudioSource>();
     }
 	
 	void Update()
@@ -35,15 +40,19 @@ public class DialogueManager : MonoBehaviour
             //Trigger correct GiveMagic
             Debug.Log("Trigger GiveMagic");
 			Player[NPCnumber].GetComponent<GiveMagic>().GiveMagicTrigger();
+            waitUntilMagicGiven = true;
 		}
-		if (Input.GetMouseButtonDown(0)){
+		if (Input.GetMouseButtonDown(0) && waitUntilMagicGiven == false){
 			if (sentences.Count == 0 && lastSentenceDisplayed==true){
 				EndDialogue();
 				return;
 			}
             if (dialogOn == true)
             {
-                DisplayNextSentence();
+                if (!currentAudio.isPlaying)
+                {
+                    DisplayNextSentence();
+                }
             }
         }
 		dialogueBox.SetActive(dialogOn);
@@ -71,12 +80,14 @@ public class DialogueManager : MonoBehaviour
 		string sentence = sentences.Dequeue();
 		dialogueText.text = sentence;
         AudioClip voiceover = voiceovers.Dequeue(); // TOEGEVOEGD
-        AudioSource.PlayClipAtPoint(voiceover, new Vector3(5, 1, 2));
+        currentAudio.clip = voiceover;
+        currentAudio.Play();
 
+        
     }
 	
 	void LastSentence(){
-        if (GetComponent<TalkingOrderController>().talkingCounter == 5)
+        if (GetComponent<TalkingOrderController>().talkingCounter == 4)
         {
             Debug.Log("NextScene");
             SceneManager.LoadScene("MidSceneNew", LoadSceneMode.Single); //moet load next scene worden
@@ -99,10 +110,9 @@ public class DialogueManager : MonoBehaviour
             else if (GetComponent<TalkingOrderController>().talkTo == 3)
             {
                 lastSentence = "Praat maar eens met de Kluizenaar";
-            }
-            else if (GetComponent<TalkingOrderController>().talkTo == 4)
+            }else if (GetComponent<TalkingOrderController>().talkTo == 4)
             {
-                lastSentence = "Praat maar eens met de Jager";
+                GetComponent<TalkingOrderController>().CounterUp();
             }
             dialogueText.text = lastSentence;
             lastSentenceDisplayed = true;
@@ -127,10 +137,6 @@ public class DialogueManager : MonoBehaviour
             {
                 lastSentence = "Praat maar eens met de Kluizenaar";
             }
-            else if (GetComponent<TalkingOrderController>().talkTo == 4)
-            {
-                lastSentence = "Praat maar eens met de Jager";
-            }
             dialogueText.text = lastSentence;
             lastSentenceDisplayed = true;
         }
@@ -139,9 +145,10 @@ public class DialogueManager : MonoBehaviour
 	void EndDialogue(){
 		Debug.Log("End of conversation.");
 		if (dialogOn == true){
-		dialogOn = false;
+		    dialogOn = false;
 		}
 		lastSentenceDisplayed = false;
 		magicGiven = false;
-	}
+        talkingToCorrectNPC = false;
+    }
 }

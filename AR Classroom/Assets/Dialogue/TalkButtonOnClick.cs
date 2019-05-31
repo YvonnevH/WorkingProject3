@@ -29,8 +29,8 @@ public GameObject DialogueManager;
 		}
 		else{
 			dialogObject.GetComponent<DialogueTrigger>().TriggerDialogue();
-			DialogueManager.GetComponent<TalkingOrderController>().CounterUp();
-		}
+            DialogueManager.GetComponent<TalkingOrderController>().CounterUp();
+        }
 		gameObject.SetActive(false);
 	}
 	

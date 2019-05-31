@@ -15,8 +15,8 @@ public class Done_GameController : MonoBehaviour
     public bool gameOver;
     private int score;
 
-    private int dragonHealth = 100;
-    private int hitPoints = 5;
+    private float dragonHealth = 100;
+    private float hitPoints = 2.5f;
     public Material dragonMaterial;
     public Material[] ringMaterials;
     public GameObject HealthBar;
@@ -61,7 +61,7 @@ public class Done_GameController : MonoBehaviour
 
     private void UpdateScore()
     {
-        float healthBarValue = (float)dragonHealth / 100f;
+        float healthBarValue = dragonHealth / 100f;
         HealthBar.GetComponent<Slider>().value = healthBarValue;
     }
 

@@ -9,6 +9,9 @@ public class dialog : MonoBehaviour
 {
     public TextMeshProUGUI textDisplay;
     public string[] sentences;
+    public AudioClip[] voiceoversArray;
+    private Queue<AudioClip> voiceovers;
+
     private int index;
     public float typingSpeed;
 
@@ -17,7 +20,17 @@ public class dialog : MonoBehaviour
 
     private void Start()
     {
+        voiceovers = new Queue<AudioClip>();
+        foreach (AudioClip voiceover in voiceoversArray) //TOEGEVOEGD
+        {
+            voiceovers.Enqueue(voiceover);
+        }
+        
         StartCoroutine(type());
+        //play first clip
+
+        AudioClip playingVoiceover = voiceovers.Dequeue(); // TOEGEVOEGD
+        AudioSource.PlayClipAtPoint(playingVoiceover, new Vector3(5, 1, 2));
     }
 
     private void Update()
@@ -41,7 +54,6 @@ public class dialog : MonoBehaviour
         {
             textDisplay.text += letter;
             yield return new WaitForSeconds(typingSpeed);
-
         }
     }
 
@@ -54,6 +66,10 @@ public class dialog : MonoBehaviour
             index++;
             textDisplay.text = "";
             StartCoroutine(type());
+            //play clip
+
+            AudioClip playingVoiceover = voiceovers.Dequeue(); // TOEGEVOEGD
+            AudioSource.PlayClipAtPoint(playingVoiceover, new Vector3(5, 1, 2));
         }
         else
         {
